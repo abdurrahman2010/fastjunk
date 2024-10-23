@@ -1,0 +1,65 @@
+
+  header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 80px;
+    background-color: chocolate;
+    z-index: 100;
+    transition: 0.5s;
+  }
+  
+  header:hover{
+    background-color: chocolate;
+  }
+  .right{
+    width: 400px;
+    margin-left: 800px;
+    display: inline;
+    color: #fff;
+    transition: 0.5s;
+  }
+  .right>a{
+    padding-left: 15px;
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .logo{
+    font-size: 32px;
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+  }
+  
+  .navbar a{
+    font-size: 18px;
+    color: white;
+    font-weight: 500;
+    text-decoration: none;
+    margin-left: 40px;
+    position: relative;
+  }
+  
+  .heading{
+    text-align: center;
+    padding: 50px;
+    font-size: 32px;
+    font-weight: 800;
+    color: #fff;
+    margin-top: 100px;
+  }
+  .input{
+    margin-top: 250px;
+    width: 400px;
+  }
+  footer{
+    background-color: rgb(255, 49, 49);
+    color: white;
+    text-align: center;
+    padding: 20px;
+    width: 100%;
+    bottom: 0;
+    margin-top: 300px;
+  }
